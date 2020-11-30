@@ -1,0 +1,18 @@
+import turtle
+t=turtle.Pen()
+turtle.bgcolor('black')
+t.pencolor('white')
+t.width(5)
+t.forward(100)
+t.left(90)
+t.pencolor('Red')
+t.forward(100)
+t.left(80)
+t.pencolor('Blue')
+t.forward(100)
+t.left(69)
+t.pencolor('Yellow')
+t.right(100)
+t.forward(90)
+
+turtle.Screen().exitonclick()
