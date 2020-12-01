@@ -79,7 +79,13 @@ stift.pencolor('orange')
 stift.left(90)
 stift.forward(250)
 stift.pencolor('white')
+
 stift.forward(300)
+
+stift.pencolor('pink')
+stift.forward(200)
+stift.left(90)
+stift.forward(350)
 turtle.Screen().exitonclick()
 
 
