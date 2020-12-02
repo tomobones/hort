@@ -1,14 +1,14 @@
 import turtle
 stift=turtle.Pen()
-turtle.bgcolor('gold')
+turtle.bgcolor('navy')
 
-for x in range(1234567890):
+for x in range(999):
 	stift.forward(x)
 	stift.left(200)
 	stift.pencolor('green')
 	stift.forward(100)
 	stift.left(200)
-	stift.pencolor('blue')
+	stift.pencolor('white')
 	stift.forward(100)
 	stift.left(200)
 	stift.pencolor('purple')
@@ -17,4 +17,12 @@ for x in range(1234567890):
 	stift.pencolor('cyan')
 	stift.forward(x)
 	stift.left(30)
+	stift.pencolor('red')
+	stift.forward(x)
+	stift.left(2)
+	stift.circle(100)
+	stift.up()
+	stift.forward(123)
+	stift.down()
+	stift.pencolor('brown')
 turtle.Screen().exitonclick()

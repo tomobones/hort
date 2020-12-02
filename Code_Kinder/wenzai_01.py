@@ -75,6 +75,28 @@ t.left(90)
 t.forward(100)
 t.forward(50)
 t.left(90)
+t.forward(100)
+t.pencolor('yellow')
+t.left(100)
+t.forward(100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
