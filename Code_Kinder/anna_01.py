@@ -1,6 +1,6 @@
 import turtle
 t=turtle.Pen()
-for x in range(1234567890):
+for x in range(543210):
 	t.forward(x)
-	t.left(10)
+	t.left(100)
 turtle.Screen().exitonclick()
