@@ -8,9 +8,9 @@ alter_stunden = alter_tage * 24
 alter_minuten = alter_stunden * 60
 alter_sekunden = alter_minuten * 60
 
-print(name_string + ", du bist also " + str(alter) + " Jahre alt.")
-print("Das sind ungefähr ", str(alter_tage), " Tage.")
-print("Das sind ungefähr " + str(alter_stunden) + " Stunden.")
-print("Das sind ungefähr " + str(alter_minuten) + " Minuten.")
-print("Das sind ungefähr " + str(alter_sekunden) + " Sekunden.")
+print(name_string, ", du bist also ", alter, " Jahre alt.")
+print("Das sind ungefähr ", alter_tage, " Tage.")
+print("Das sind ungefähr ", alter_stunden, " Stunden.")
+print("Das sind ungefähr ", alter_minuten, " Minuten.")
+print("Das sind ungefähr ", alter_sekunden, " Sekunden.")
 
