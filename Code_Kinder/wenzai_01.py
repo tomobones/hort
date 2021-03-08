@@ -1,8 +1,8 @@
 import  turtle
 
 t=turtle.Pen()
-turtle.bgcolor('white')
-t.pencolor('gold')
+turtle.bgcolor('grey')
+t.pencolor('black')
 t.width(5)
 t.forward(100)
 t.left(90)
@@ -11,7 +11,7 @@ t.left(90)
 t.forward(100)
 t.left(90)
 t.forward(100)
-t.pencolor('grey')
+t.pencolor('yellow')
 t.forward(120)
 t.left(90)
 t.forward(100)
@@ -19,22 +19,22 @@ t.left(90)
 t.forward(100)
 t.left(90)
 t.forward(100)
-t.pencolor('yellow')
+t.pencolor('black')
 t.forward(80)
 t.left(80)
 t.forward(20)
-t.pencolor('blue')
+t.pencolor('yellow')
 t.forward(120)
 t.left(100)
 t.forward(150)
 t.left(90)
-t.pencolor('green')
+t.pencolor('black')
 t.forward(120)
 t.left(100)
 t.forward(150)
 t.left(80)
 t.forward(100)
-t.pencolor('orange')
+t.pencolor('yellow')
 t.left(100)
 t.forward(150)
 t.left(90)
@@ -79,22 +79,22 @@ t.forward(100)
 t.pencolor('yellow')
 t.left(100)
 t.forward(100)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+t.left(100)
+t.forward(150)
+t.left(150)
+t.forward(150)
+t.pencolor('black')
+t.left(100)
+t.forward(200)
+t.left(120)
+t.forward(300)
+t.left(300)
+t.forward(200)
+t.left(100)
+t.forward(150)
+t.pencolor('yellow')
+t.left(90)
+t.forward(135)
 
 
 
