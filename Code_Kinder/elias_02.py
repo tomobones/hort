@@ -25,4 +25,6 @@ for x in range(999):
 	stift.forward(123)
 	stift.down()
 	stift.pencolor('brown')
+	stift.forward(220)
+	stift.left(201)
 turtle.Screen().exitonclick()
