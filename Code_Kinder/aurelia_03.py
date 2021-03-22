@@ -1,8 +1,8 @@
 import turtle
 
-colors=['blue', 'green']
+colors=['turquoise4', 'turquoise3']
 t=turtle.Pen()
-turtle.bgcolor('red')
+turtle.bgcolor('turquoise1')
 for x in range(360):
     t.pencolor(colors[x%2])
     t.width(x/100+1)
