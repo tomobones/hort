@@ -1,10 +1,10 @@
 import  turtle
-colors= ['red','purple','green','blue','orange','yellow']
-t=turtle.Pen()
+colors=['dark green','dark olive green','dark sea green']
+t=turtle.Pen(10)
 turtle.bgcolor('black')
-for x in range(360):
-    t.pencolor(colors[x%6]) 
-    t.width(x/100+1)
+for x in range(1000):
+    t.pencolor(colors[x%3]) 
+    t.width(x/5+5)
     t.forward(x)
-    t.left(91)
+    t.left(100)
 turtle.Screen().exitonclick()
