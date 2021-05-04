@@ -1,12 +1,13 @@
 import turtle
 
-colors=[ 'purple1', 'blue', 'cyan2', 'gold', 'green2']
+colors=[ 'cyan4','cyan2','green2']
 t=turtle.Pen()
-turtle.bgcolor('black')
-for x in range(213):
-    t.pencolor(colors[x%5])
-    t.width(x/333+5)
+turtle.bgcolor('pink')
+for x in range(333):
+    t.pencolor(colors[x%3])
+    t.width(22+44)
     t.forward(x)
-    t.left(59)
+    t.left(33)
 turtle.Screen().exitonclick()
 
+	
