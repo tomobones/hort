@@ -1,6 +1,4 @@
 import turtle
-import random
-
 
 def stern_klein():
     pen.begin_fill()

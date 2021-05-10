@@ -1,4 +1,4 @@
-import  turtle
+import turtle
 
 colors = ['red', 'purple', 'blue', 'green', 'yellow', 'orange']
 
