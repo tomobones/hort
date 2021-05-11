@@ -3,7 +3,7 @@ import turtle
 def stern_klein():
     pen.begin_fill()
     for i in range(5):
-        pen.color("orange")
+        pen.color('red')
         pen.forward(5)
         pen.left(144)
     pen.end_fill()
@@ -29,9 +29,8 @@ def stern_gross():
 pen = turtle.Turtle()
 pen.up()
 pen.setpos(-300,0)
-pen.right(144)
 pen.down()
 stern_gross()
 
-#pen.ht()
+pen.ht()
 turtle.Screen().exitonclick()
